@@ -6,7 +6,7 @@ Each theme is provided with a preview image and the corresponding color scheme. 
 
 ## Kirby
 
-![Kirby Theme](./images/kirby.png)
+![Kirby Theme](../images/kirby.png)
 
 ```json
 {
@@ -36,7 +36,7 @@ Each theme is provided with a preview image and the corresponding color scheme. 
 
 ## Metal Gear Solid V: The Phantom Pain
 
-![Phantom Theme](./images/phantom.png)
+![Phantom Theme](../images/phantom.png)
 
 ```json
 {
@@ -66,7 +66,7 @@ Each theme is provided with a preview image and the corresponding color scheme. 
 
 ## The Legend of Zelda
 
-![Zelda Theme](./images/zelda.png)
+![Zelda Theme](../images/zelda.png)
 
 ```json
 {
@@ -96,7 +96,7 @@ Each theme is provided with a preview image and the corresponding color scheme. 
 
 ## The Legend of Zelda: Twilight Princess
 
-![Twilight Princess Theme](./images/twilight.png)
+![Twilight Princess Theme](../images/twilight.png)
 
 ```json
 {
@@ -126,7 +126,7 @@ Each theme is provided with a preview image and the corresponding color scheme. 
 
 ## The Legend of Zelda: Tears of the Kingdom
 
-![TOTK Theme](./images/totk.png)
+![TOTK Theme](../images/totk.png)
 
 ```json
 {
