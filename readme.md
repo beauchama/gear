@@ -32,15 +32,15 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 
 ### Configure Windows Terminal
 
-To set up the custom terminal profile 'Gear' and color scheme 'Phantom', follow these steps:
+To set up the custom terminal profile 'Gear' and color schemes, follow these steps:
 
 1. Open Windows Terminal.
 2. Open the settings (Ctrl + ,).
 3. Open the `settings.json` file.
-4. Add the following color scheme to the `schemes`:
+4. Add theses following color schemes to the `schemes`:
 ```json
 {
-    "name": "Phantom",
+    "name": "phantom",
     "background": "#1B1B1B",
     "black": "#1B1B1B",
     "blue": "#6E7275",
@@ -61,6 +61,29 @@ To set up the custom terminal profile 'Gear' and color scheme 'Phantom', follow 
     "selectionBackground": "#FFFFFF",
     "white": "#E5E5E5",
     "yellow": "#C9A46C"
+},
+{
+    "name": "kirby",
+    "background": "#1C1A1E",
+    "black": "#1C1A1E",
+    "brightBlack": "#3A3540",
+    "foreground": "#F6A9C7",
+    "white": "#FCE6EE",
+    "brightWhite": "#FFF3F8",
+    "red": "#E94E77",
+    "brightRed": "#FF6F9E",
+    "green": "#F7B267",
+    "brightGreen": "#FFD29D",
+    "yellow": "#F9D976",
+    "brightYellow": "#FFF0A6",
+    "blue": "#7FB8E6",
+    "brightBlue": "#A9D6FF",
+    "purple": "#E39ACD",
+    "brightPurple": "#F5B6E4",
+    "cyan": "#7FD7D7",
+    "brightCyan": "#B5F0F0",
+    "cursorColor": "#FFF3F8",
+    "selectionBackground": "#3A2B35"
 }
 ```
 5. Add the following profile to the `profiles.list`:
@@ -69,7 +92,7 @@ To set up the custom terminal profile 'Gear' and color scheme 'Phantom', follow 
     "name": "Gear",
     "guid": "{bf06ed7b-0f31-4a96-af85-16024dc1c720}",
     "commandline": "pwsh.exe -NoLogo",
-    "colorScheme": "Phantom",
+    "colorScheme": "phantom",
     "adjustIndistinguishableColors": "always",
     "cursorColor": "#C9A46C",
     "cursorShape": "vintage",

@@ -20,8 +20,11 @@ Import-Module posh-git
 Import-Module Terminal-Icons
 Import-Module PSReadline
 
-# Initialize oh-my-posh
-oh-my-posh --init --shell pwsh --config https://cdn.jsdelivr.net/gh/beauchama/gear@main/phantom.omp.json | Invoke-Expression
+# Initialize oh-my-posh with custom themes
+
+# You can choose either phantom or kirby theme by uncommenting the desired line
+# oh-my-posh --init --shell pwsh --config https://cdn.jsdelivr.net/gh/beauchama/gear@main/phantom.omp.json | Invoke-Expression
+# oh-my-posh --init --shell pwsh --config https://cdn.jsdelivr.net/gh/beauchama/gear@main/kirby.omp.json | Invoke-Expression
 
 # PowerShell parameter completion for dotnet
 # https://docs.microsoft.com/en-us/dotnet/core/tools/enable-tab-autocomplete
